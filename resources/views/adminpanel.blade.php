@@ -24,6 +24,16 @@
     <link href="{{ asset('backend/src/assets/css/dark/dashboard/dash_1.css') }}" rel="stylesheet" type="text/css" />
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 
+    <!--  BEGIN CUSTOM STYLE FILE  -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('backend/src/plugins/src/stepper/bsStepper.min.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ asset('backend/src/assets/css/light/scrollspyNav.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('backend/src/plugins/css/light/stepper/custom-bsStepper.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ asset('backend/src/assets/css/dark/scrollspyNav.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('backend/src/plugins/css/dark/stepper/custom-bsStepper.css') }}">
+    <!--  END CUSTOM STYLE FILE  -->
+
 </head>
 
 <body class="layout-boxed">
@@ -250,12 +260,21 @@
     <script src="{{ asset('backend/src/plugins/src/mousetrap/mousetrap.min.js') }}"></script>
     <script src="{{ asset('backend/src/plugins/src/waves/waves.min.js') }}"></script>
     <script src="{{ asset('backend/layouts/vertical-dark-menu/app.js') }}"></script>
+    <script src="{{ asset('backend/src/plugins/src/highlight/highlight.pack.js') }}"></script>
+    <script src="{{ asset('backend/src/assets/js/scrollspyNav.js') }}"></script>
     <!-- END GLOBAL MANDATORY SCRIPTS -->
 
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
     <script src="{{ asset('backend/src/plugins/src/apex/apexcharts.min.js') }}"></script>
     <script src="{{ asset('backend/src/assets/js/dashboard/dash_1.js') }}"></script>
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+
+     <!-- BEGIN PAGE LEVEL SCRIPTS -->
+     <script src="{{ asset('backend/src/plugins/src/stepper/bsStepper.min.js') }}"></script>
+     <script src="{{ asset('backend/src/plugins/src/stepper/custom-bsStepper.min.js') }}"></script>
+     <!-- END PAGE LEVEL SCRIPTS -->
+
+
 
 </body>
 
