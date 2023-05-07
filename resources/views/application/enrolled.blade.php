@@ -44,7 +44,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>UKMC00121</td>
+                                <td>U00121</td>
                                 <td>Tiger Nixon</td>
                                 <td>demo@demo.com</td>
                                 <td>991144525</td>
