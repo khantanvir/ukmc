@@ -34,13 +34,13 @@
                 <div id="card_1" class="col-lg-12 layout-spacing layout-top-spacing">
                     <div class="statbox widget box box-shadow">
                         <div class="widget-content widget-content-area">
-                            <div class="row mb-4">
+                            <div class="row mb-2">
                                 <div class="col-xl-12 col-md-12 col-sm-12 col-12">
                                     <div class="d-flex align-items-start justify-content-between">
-                                        <h4>Add Institute Information</h4>
+                                        <h5>Add Campus Information</h5>
                                         <a href="/institute" class=""><button
                                                 class="btn btn-info btn-rounded mb-2 mr-4 inline-flex items-center"> View
-                                                Institutes <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                Campus <svg xmlns="http://www.w3.org/2000/svg" width="20"
                                                     height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                                     class="feather feather-eye">
@@ -50,8 +50,7 @@
                                     </div><br>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlInput1">Represent
-                                            Country</label><select class="form-control">
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Country</label><select class="form-control">
                                             <option disabled="" value="">Select Represent Country</option>
                                             <option value="1">United Kingdom</option>
                                             <option value="2">Australia</option>
@@ -67,15 +66,14 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlInput1">Institute
-                                            Name</label><input type="text" class="form-control" name="institute_name">
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">City</label><input type="text" class="form-control" name="institute_name">
                                         <ul>
                                             <!---->
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlInput1">Campus
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Campus
                                             Name</label><input type="text" class="form-control" name="campus_name">
                                         <ul>
                                             <!---->
@@ -83,9 +81,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mb-4">
+                            <div class="row mb-2">
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlInput1">Website</label><input
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Website</label><input
                                             type="text" class="form-control" name="website">
                                         <ul>
                                             <!---->
@@ -93,7 +91,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlInput1">Monthly Living
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Monthly Living
                                             Cost</label><input type="text" class="form-control"
                                             name="monthly_living_cost">
                                         <ul>
@@ -102,7 +100,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlInput1">Funds Requirements
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Funds Requirements
                                             for Visa</label><input type="text" class="form-control"
                                             name="funds_requirements_for_visa">
                                         <ul>
@@ -111,9 +109,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mb-4">
+                            <div class="row mb-2">
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlInput1">Application
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Application
                                             Fees</label><input type="text" class="form-control"
                                             name="application_fee">
                                         <ul>
@@ -122,7 +120,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label
+                                    <div class="form-group mb-2"><label
                                             for="exampleFormControlInput1">Currency</label><input type="text"
                                             class="form-control" name="currency">
                                         <ul>
@@ -131,8 +129,8 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlInput1">Is Language
-                                            Mendatory</label><input type="text" class="form-control"
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Is Language
+                                            Mandatory</label><input type="text" class="form-control"
                                             placeholder="Yes or No" name="is_lang_mendatory">
                                         <ul>
                                             <!---->
@@ -140,9 +138,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mb-4">
+                            <div class="row mb-2">
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlTextarea1">Language
+                                    <div class="form-group mb-2"><label for="exampleFormControlTextarea1">Language
                                             Requirements</label>
                                         <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" spellcheck="false"
                                             name="lang_requirements"></textarea>
@@ -152,7 +150,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlTextarea1">Institute
+                                    <div class="form-group mb-2"><label for="exampleFormControlTextarea1">Institute
                                             Benifits</label>
                                         <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" spellcheck="false"
                                             name="institute_benifits"></textarea>
@@ -162,7 +160,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlTextarea1"> Part Time Work
+                                    <div class="form-group mb-2"><label for="exampleFormControlTextarea1"> Part Time Work
                                             Details</label>
                                         <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" spellcheck="false"
                                             name="per_time_work_details"></textarea>
@@ -172,9 +170,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mb-4">
+                            <div class="row mb-2">
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlTextarea1">Scholarship
+                                    <div class="form-group mb-2"><label for="exampleFormControlTextarea1">Scholarship
                                             Policy</label>
                                         <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" spellcheck="false"
                                             name="scholarship_policy"></textarea>
@@ -184,7 +182,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-4"><label for="exampleFormControlTextarea1"> Institute
+                                    <div class="form-group mb-2"><label for="exampleFormControlTextarea1"> Institute
                                             Important Notes</label>
                                         <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" spellcheck="false"
                                             name="institute_important_notes"></textarea>
@@ -194,11 +192,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mb-4">
+                            <div class="row mb-2">
                                 <div class="col">
                                     <div class="row d-flex align-items-center">
                                         <div class="col col-md-8">
-                                            <div class="form-group mb-4"><label>Upload Institute Logo</label><label
+                                            <div class="form-group mb-2"><label>Upload Institute Logo</label><label
                                                     class="custom-file-container__custom-file"><input type="file"
                                                         class="form-control-file" accept="image/*"
                                                         name="institute_logo"></label>
@@ -216,7 +214,7 @@
                                 <div class="col">
                                     <div class="row d-flex align-items-center">
                                         <div class="col col-md-8">
-                                            <div class="form-group mb-4"><label>Institute Prospectus</label><label
+                                            <div class="form-group mb-2"><label>Institute Prospectus</label><label
                                                     class="custom-file-container__custom-file"><input type="file"
                                                         class="form-control-file"></label></div>
                                         </div>
@@ -225,7 +223,7 @@
                                 <div class="col">
                                     <div class="row d-flex align-items-center">
                                         <div class="col col-md-8">
-                                            <div class="form-group mb-4"><label>Institute Course Module</label><label
+                                            <div class="form-group mb-2"><label>Institute Course Module</label><label
                                                     class="custom-file-container__custom-file"><input type="file"
                                                         class="form-control-file"></label>
                                                 <div class="custom-file-container__image-preview"></div>
@@ -240,14 +238,14 @@
                 <div id="card_1" class="col-lg-12 layout-spacing layout-top-spacing">
                     <div class="statbox widget box box-shadow">
                         <div class="widget-content widget-content-area">
-                            <div class="row mb-4">
+                            <div class="row mb-2">
                                 <div class="col-xl-12 col-md-12 col-sm-12 col-12">
                                     <h4>University Contact Person</h4><br>
                                 </div>
                                 <div class="col col-md-12">
                                     <div class="row">
                                         <div class="col col-md-3">
-                                            <div class="form-group mb-4"><label for="personName">Contact Person
+                                            <div class="form-group mb-2"><label for="personName">Contact Person
                                                     Name</label><input id="personName" type="text"
                                                     class="form-control" name="contacts.0.name">
                                                 <ul>
@@ -256,7 +254,7 @@
                                             </div>
                                         </div>
                                         <div class="col col-md-3">
-                                            <div class="form-group mb-4"><label for="email">Email</label><input
+                                            <div class="form-group mb-2"><label for="email">Email</label><input
                                                     type="email" class="form-control" name="contacts.0.email">
                                                 <ul>
                                                     <li class="error">Value is required</li>
@@ -264,7 +262,7 @@
                                             </div>
                                         </div>
                                         <div class="col col-md-3">
-                                            <div class="form-group mb-4"><label for="phone">Phone</label><input
+                                            <div class="form-group mb-2"><label for="phone">Phone</label><input
                                                     type="text" class="form-control" name="contacts.0.phone">
                                                 <ul>
                                                     <li class="error">Value is required</li>
@@ -272,7 +270,7 @@
                                             </div>
                                         </div>
                                         <div class="col col-md-3">
-                                            <div class="form-group mb-4"><label for="alternate_phone">Alternate
+                                            <div class="form-group mb-2"><label for="alternate_phone">Alternate
                                                     Phone</label><input type="text" class="form-control"
                                                     name="contacts.0.alternate_phone">
                                                 <ul>

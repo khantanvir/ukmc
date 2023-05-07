@@ -32,7 +32,7 @@
                     <table id="zero-config" class="table dt-table-hover" style="width:100%">
                         <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>Application ID</th>
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Phone</th>
