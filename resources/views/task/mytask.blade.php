@@ -24,7 +24,80 @@
                 </header>
             </div>
         </div>
-        <h1>mytask Here</h1>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 layout-top-spacing">
+
+            <div class="usr-tasks ">
+                <div class="widget-content widget-content-area">
+                    <h5 class="p-3">My Task List</h5>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Task Name</th>
+                                    <th>Assign Person</th>
+                                    <th>Progress</th>
+                                    <th>Task Done</th>
+                                    <th class="text-center">Deadline</th>
+                                    <th class="text-center">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Website Design</td>
+                                    <td>
+                                        <p class="text-danger">Riazul Islam</p>
+                                    </td>
+                                    <td>
+                                        <div class="progress br-30">
+                                            <div class="progress-bar br-30 bg-danger" role="progressbar" style="width: 29.56%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    </td>
+                                    <td>
+                                        <p class="text-danger">29.56%</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <p>25-May-2023</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <a class="badge badge-light-success text-start action-view" href="">
+                                            <svg data-v-5f5b4c12="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                        </a>
+                                        <a class="badge badge-light-primary text-start action-edit" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></a>
+                                        <a class="badge badge-light-danger text-start action-delete" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></a></td>
+                                </tr>
+                                <tr>
+                                    <td>Website Development</td>
+                                    <td>
+                                        <p class="text-danger">Riazul Islam</p>
+                                    </td>
+                                    <td>
+                                        <div class="progress br-30">
+                                            <div class="progress-bar br-30 bg-danger" role="progressbar" style="width: 29.56%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    </td>
+                                    <td>
+                                        <p class="text-danger">29.56%</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <p>25-May-2023</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <a class="badge badge-light-success text-start action-view" href="">
+                                            <svg data-v-5f5b4c12="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                        </a>
+                                        <a class="badge badge-light-primary text-start action-edit" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></a>
+                                        <a class="badge badge-light-danger text-start action-delete" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></a></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
 

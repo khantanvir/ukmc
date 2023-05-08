@@ -39,7 +39,7 @@
                                 <th>Campus</th>
                                 <th>Create date</th>
                                 <th>Status</th>
-                                <th class="no-content">Action</th>
+                                <th class="text-center">Action</th>
                             </tr>
                         </thead>
                         <tbody>

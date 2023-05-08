@@ -27,7 +27,7 @@
                 </div>
             </a>
         </li>
-        
+
         <li class="menu {{ (!empty($application) && $application==true)?'active':'' }}">
             <a href="#datatables1" data-bs-toggle="collapse" aria-expanded="{{ (!empty($application) && $application==true)?'true':'false' }}" class="dropdown-toggle">
                 <div class="">
@@ -150,7 +150,7 @@
             </a>
             <ul class="{{ (!empty($settings) && $settings==true)?'collapse show':'collapse' }} submenu list-unstyled" id="users" data-bs-parent="#accordionExample">
                 <li class="{{ (!empty($company_settings) && $company_settings==true)?'active':'' }}">
-                    <a href="{{ URL::to('company-settings') }}"> Company Settings </a>
+                    <a href="{{ URL::to('company-settings') }}"> Software Settings </a>
                 </li>
             </ul>
         </li>

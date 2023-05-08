@@ -37,16 +37,7 @@
                             <div class="row mb-2">
                                 <div class="col-xl-12 col-md-12 col-sm-12 col-12">
                                     <div class="d-flex align-items-start justify-content-between">
-                                        <h5>Add Campus Information</h5>
-                                        <a href="/institute" class=""><button
-                                                class="btn btn-info btn-rounded mb-2 mr-4 inline-flex items-center"> View
-                                                Campus <svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-eye">
-                                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                                    <circle cx="12" cy="12" r="3"></circle>
-                                                </svg></button></a>
+                                        <h5>Software Information</h5>
                                     </div><br>
                                 </div>
                                 <div class="col">
@@ -73,53 +64,6 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Campus
-                                            Name</label><input type="text" class="form-control" name="campus_name">
-                                        <ul>
-                                            <!---->
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-2">
-                                <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Website</label><input
-                                            type="text" class="form-control" name="website">
-                                        <ul>
-                                            <!---->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Monthly Living
-                                            Cost</label><input type="text" class="form-control"
-                                            name="monthly_living_cost">
-                                        <ul>
-                                            <!---->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Funds Requirements
-                                            for Visa</label><input type="text" class="form-control"
-                                            name="funds_requirements_for_visa">
-                                        <ul>
-                                            <!---->
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-2">
-                                <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Application
-                                            Fees</label><input type="text" class="form-control"
-                                            name="application_fee">
-                                        <ul>
-                                            <!---->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col">
                                     <div class="form-group mb-2"><label
                                             for="exampleFormControlInput1">Currency</label><input type="text"
                                             class="form-control" name="currency">
@@ -128,42 +72,19 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Is Language
-                                            Mandatory</label><input type="text" class="form-control"
-                                            placeholder="Yes or No" name="is_lang_mendatory">
-                                        <ul>
-                                            <!---->
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                             <div class="row mb-2">
+
                                 <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlTextarea1">Language
-                                            Requirements</label>
-                                        <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" spellcheck="false"
-                                            name="lang_requirements"></textarea>
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Address</label><input type="text" class="form-control" name="campus_name">
                                         <ul>
                                             <!---->
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlTextarea1">Institute
-                                            Benifits</label>
-                                        <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" spellcheck="false"
-                                            name="institute_benifits"></textarea>
-                                        <ul>
-                                            <!---->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-group mb-2"><label for="exampleFormControlTextarea1"> Part Time Work
-                                            Details</label>
-                                        <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" spellcheck="false"
-                                            name="per_time_work_details"></textarea>
+                                    <div class="form-group mb-2"><label for="exampleFormControlInput1">Website</label><input
+                                            type="text" class="form-control" name="website">
                                         <ul>
                                             <!---->
                                         </ul>
@@ -196,7 +117,7 @@
                                 <div class="col">
                                     <div class="row d-flex align-items-center">
                                         <div class="col col-md-8">
-                                            <div class="form-group mb-2"><label>Upload Institute Logo</label><label
+                                            <div class="form-group mb-2"><label>Upload Logo</label><label
                                                     class="custom-file-container__custom-file"><input type="file"
                                                         class="form-control-file" accept="image/*"
                                                         name="institute_logo"></label>
@@ -214,20 +135,9 @@
                                 <div class="col">
                                     <div class="row d-flex align-items-center">
                                         <div class="col col-md-8">
-                                            <div class="form-group mb-2"><label>Institute Prospectus</label><label
+                                            <div class="form-group mb-2"><label>Prospectus</label><label
                                                     class="custom-file-container__custom-file"><input type="file"
                                                         class="form-control-file"></label></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="row d-flex align-items-center">
-                                        <div class="col col-md-8">
-                                            <div class="form-group mb-2"><label>Institute Course Module</label><label
-                                                    class="custom-file-container__custom-file"><input type="file"
-                                                        class="form-control-file"></label>
-                                                <div class="custom-file-container__image-preview"></div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -240,7 +150,7 @@
                         <div class="widget-content widget-content-area">
                             <div class="row mb-2">
                                 <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                                    <h4>University Contact Person</h4><br>
+                                    <h4>Contact Person</h4><br>
                                 </div>
                                 <div class="col col-md-12">
                                     <div class="row">
@@ -248,25 +158,16 @@
                                             <div class="form-group mb-2"><label for="personName">Contact Person
                                                     Name</label><input id="personName" type="text"
                                                     class="form-control" name="contacts.0.name">
-                                                <ul>
-                                                    <li class="error">Value is required</li>
-                                                </ul>
                                             </div>
                                         </div>
                                         <div class="col col-md-3">
                                             <div class="form-group mb-2"><label for="email">Email</label><input
                                                     type="email" class="form-control" name="contacts.0.email">
-                                                <ul>
-                                                    <li class="error">Value is required</li>
-                                                </ul>
                                             </div>
                                         </div>
                                         <div class="col col-md-3">
                                             <div class="form-group mb-2"><label for="phone">Phone</label><input
                                                     type="text" class="form-control" name="contacts.0.phone">
-                                                <ul>
-                                                    <li class="error">Value is required</li>
-                                                </ul>
                                             </div>
                                         </div>
                                         <div class="col col-md-3">
@@ -276,35 +177,6 @@
                                                 <ul>
                                                     <!---->
                                                 </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col col-md-12 text-right">
-                                            <div class="row ml-4">
-                                                <div><button class="btn btn-warning btn-rounded mb-2 mr-2 inline-flex"> Add
-                                                        More <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                            height="24" viewBox="0 0 24 24" fill="none"
-                                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round" class="feather feather-plus-circle">
-                                                            <circle cx="12" cy="12" r="10">
-                                                            </circle>
-                                                            <line x1="12" y1="8" x2="12"
-                                                                y2="16"></line>
-                                                            <line x1="8" y1="12" x2="16"
-                                                                y2="12"></line>
-                                                        </svg></button></div>
-                                                <div style="display: none;"><button
-                                                        class="btn btn-danger btn-rounded mb-2 mr-2 inline-flex"> Remove
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                            height="24" viewBox="0 0 24 24" fill="none"
-                                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round" class="feather feather-x-circle">
-                                                            <circle cx="12" cy="12" r="10">
-                                                            </circle>
-                                                            <line x1="15" y1="9" x2="9"
-                                                                y2="15"></line>
-                                                            <line x1="9" y1="9" x2="15"
-                                                                y2="15"></line>
-                                                        </svg></button></div>
                                             </div>
                                         </div>
                                     </div>

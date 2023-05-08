@@ -21,3 +21,12 @@ Route::controller(TaskController::class)->group(function () {
 Route::controller(SettingController::class)->group(function () {
     Route::get('company-settings', 'company_settings');
 });
+Route::controller(SettingController::class)->group(function () {
+    Route::get('profile-settings', 'profile_settings');
+});
+Route::controller(SettingController::class)->group(function () {
+    Route::get('login', 'login');
+});
+Route::controller(SettingController::class)->group(function () {
+    Route::get('edit_profile', 'edit_profile');
+});
