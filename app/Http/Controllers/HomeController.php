@@ -31,4 +31,12 @@ class HomeController extends Controller
         $data['usermanagement'] = true;
         return view('users/list',$data);
     }
+    public function login(){
+        $data['page_title'] = 'User | Login';
+        return view('authpanel/login',$data);
+    }
+    public function reset_password(){
+        $data['page_title'] = 'User | Reset Password';
+        return view('authpanel/reset_password',$data);
+    }
 }

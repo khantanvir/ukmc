@@ -19,12 +19,7 @@ class SettingController extends Controller
         $data['profile_settings'] = true;
         return view('setting/profile_settings',$data);
     }
-    public function login(){
-        $data['page_title'] = 'Login / Settings';
-        $data['settings'] = true;
-        $data['login'] = true;
-        return view('setting/login',$data);
-    }
+    
     public function edit_profile(){
         $data['page_title'] = 'Edit / Settings';
         $data['settings'] = true;

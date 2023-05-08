@@ -11,6 +11,8 @@ use App\Http\Controllers\Setting\SettingController;
 //Auth::routes();
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index');
+    Route::get('login', 'login');
+    Route::get('reset-password', 'reset_password');
     Route::get('user-list', 'user_list');
 });
 Route::controller(TaskController::class)->group(function () {
@@ -20,13 +22,7 @@ Route::controller(TaskController::class)->group(function () {
 });
 Route::controller(SettingController::class)->group(function () {
     Route::get('company-settings', 'company_settings');
-});
-Route::controller(SettingController::class)->group(function () {
     Route::get('profile-settings', 'profile_settings');
-});
-Route::controller(SettingController::class)->group(function () {
-    Route::get('login', 'login');
-});
-Route::controller(SettingController::class)->group(function () {
     Route::get('edit_profile', 'edit_profile');
 });
+
