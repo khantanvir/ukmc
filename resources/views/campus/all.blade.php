@@ -91,9 +91,11 @@
                                                         <img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSp9D91c3SJquuX7ULMJTnCM0iItK09k2WDRXPWxiHg2IJVpqcTpxSfMvrU3aINTflT" alt="..." width="80px">
                                                     </div>
                                                     <div class="action-wrapd-flex align-items-center justify-content-between">
-                                                        <span class="badge badge-pill badge-warning custom-btn-branch me-1 me-2">
-                                                            <a href="" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a>
-                                                        </span>
+                                                        <a href="">
+                                                            <span class="badge badge-pill badge-warning custom-btn-branch me-1 me-2">
+                                                                <a href="" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a>
+                                                            </span>
+                                                        </a>
                                                         <a href="" class="">
                                                             <span class="badge badge-pill badge-secondary custom-btn-branch me-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
                                                             </span>

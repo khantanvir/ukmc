@@ -56,7 +56,7 @@
                                                 <tbody>
                                                     <tr class="">
                                                         <td>1</td>
-                                                        <td>Bachelor of Computer Science</td>
+                                                        <td>omputer Science</td>
                                                         <td>Birmingham</td>
                                                         <td>Architecture</td>
                                                         <td>Undergraduate</td>
@@ -76,48 +76,15 @@
                                                         </td>
 
                                                         <td class="flex space-x-2">
-                                                            <a href="/course/78327ed4e27e476383aecf91fda7d0f1"
-                                                                class="">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                    width="24" height="24" viewBox="0 0 24 24"
-                                                                    fill="none" stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-edit-3 icon custom-edit-icon">
-                                                                    <path d="M12 20h9"></path>
-                                                                    <path
-                                                                        d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z">
-                                                                    </path>
-                                                                </svg></a>
-                                                            <span style="cursor: pointer;">
-                                                                <svg
-                                                                    xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-eye" data-v-139ba731="">
-                                                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
-                                                                        data-v-139ba731=""></path>
-                                                                    <circle cx="12" cy="12" r="3"
-                                                                        data-v-139ba731=""></circle>
-                                                                </svg>
-                                                            </span>
-                                                            <span style="cursor: pointer;">
-                                                                <svg
-                                                                    xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-trash-2">
-                                                                    <polyline points="3 6 5 6 21 6"></polyline>
-                                                                    <path
-                                                                        d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
-                                                                    </path>
-                                                                    <line x1="10" y1="11" x2="10"
-                                                                        y2="17"></line>
-                                                                    <line x1="14" y1="11" x2="14"
-                                                                        y2="17"></line>
-                                                                </svg>
-                                                            </span>
+                                                            <a href="" class="badge badge-pill bg-primary">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye text-white"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                                            </a>
+                                                            <a href="" class="badge badge-pill bg-warning">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3 text-white"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                                                            </a>
+                                                            <a href="" class="badge badge-pill bg-danger">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2  delete-multiple text-white"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                                                            </a>
                                                         </td>
                                                     </tr>
                                                 </tbody>
