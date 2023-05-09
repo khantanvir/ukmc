@@ -7,10 +7,10 @@
 
                 <div class="row">
                     <div class="col-md-12 mb-3">
-                        
+
                         <h2>Sign In</h2>
                         <p>Enter your email and password to login</p>
-                        
+
                     </div>
                     <div class="col-md-12">
                         <div class="mb-3">
@@ -34,18 +34,18 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-12">
                         <div class="mb-4">
                             <button class="btn btn-secondary w-100">SIGN IN</button>
                         </div>
                     </div>
-                    
+
                     <div class="col-12 mb-4">
                         <div class="">
                             <div class="seperator">
                                 <hr>
-                                <div class="seperator-text"> <span>Or continue with</span></div>
+                                <div class="seperator-text"> <span>Or</span></div>
                             </div>
                         </div>
                     </div>
@@ -54,13 +54,13 @@
                             <p class="mb-0">Forgot Password ? <a href="{{ URL::to('reset-password') }}" class="text-warning">Click Here</a></p>
                         </div>
                     </div>
-                    
+
                 </div>
-                
+
             </div>
         </div>
     </div>
-    
+
 </div>
 @stop
 
