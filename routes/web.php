@@ -1,5 +1,6 @@
 <?php
 
+use App\Events\AddLeadEvent;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use Illuminate\Http\Request;
@@ -24,5 +25,10 @@ Route::controller(SettingController::class)->group(function () {
     Route::get('company-settings', 'company_settings');
     Route::get('profile-settings', 'profile_settings');
     Route::get('edit_profile', 'edit_profile');
+});
+
+Route::get('test', function () {
+    event(new AddLeadEvent('Mr Tanvir'));
+    return "Event has been sent!";
 });
 
