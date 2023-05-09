@@ -22,6 +22,8 @@
     <link href="{{ asset('backend/src/plugins/src/apex/apexcharts.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('backend/src/assets/css/light/dashboard/dash_1.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('backend/src/assets/css/dark/dashboard/dash_1.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('backend/src/assets/css/light/dashboard/dash_2.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('backend/src/assets/css/dark/dashboard/dash_2.css') }}" rel="stylesheet" type="text/css" />
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 
     <!--  BEGIN CUSTOM STYLE FILE  -->
@@ -268,6 +270,7 @@
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
     <script src="{{ asset('backend/src/plugins/src/apex/apexcharts.min.js') }}"></script>
     <script src="{{ asset('backend/src/assets/js/dashboard/dash_1.js') }}"></script>
+    <script src="{{ asset('backend/src/assets/js/dashboard/dash_2.js') }}"></script>
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
 
      <!-- BEGIN PAGE LEVEL SCRIPTS -->
